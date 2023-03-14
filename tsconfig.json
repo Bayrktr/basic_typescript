@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"], // kütüphane kurulum yeri
+    "strict": false, // garanti tip desteği sağlar
+    "module": "CommonJS", // paket kurulumları
+    "allowJs": false, // aktif edilmesi önerilmez
+    "moduleResolution": "Node", // node.js kullanıyor isen boyle kullan
+    "esModuleInterop": false,
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
